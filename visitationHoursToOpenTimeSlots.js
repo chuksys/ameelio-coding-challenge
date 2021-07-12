@@ -45,7 +45,7 @@ visitationHoursToOpenTimeSlot(visitationHours,scheduledCalls)
 
 //Algorithm
 
-//convert availableTimeSLots to epoch
+//convert visitationHours to epoch
 //assume all slots are available
 //foreach scheduled call...
 //check if scheduled call exists in availableslots
