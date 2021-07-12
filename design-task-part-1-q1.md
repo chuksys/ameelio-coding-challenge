@@ -14,7 +14,7 @@ Contacts {
 }
 
 Designs {
-    cost: 
+    cost: {}[]
 }
 
 Mail {

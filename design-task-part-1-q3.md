@@ -14,7 +14,7 @@ Contacts {
 }
 
 Designs {
-    cost: 
+    cost: {}[]
 }
 
 Mail {
@@ -22,5 +22,4 @@ Mail {
     contactId: number,
     totalCost: number,
     contactIds: [],
-
 }
