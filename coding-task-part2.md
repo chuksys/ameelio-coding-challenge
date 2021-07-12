@@ -1,2 +1,2 @@
-My algorithm required that I convert visitationHours to an object with start and end timestamps just like in scheduledCalls. The trade-off I made was to skip converting the availableTimeSlots; instead I hard-corded it.
-If I had more time, I would convert the availableTimeSlots accordingly.
+My algorithm required that I convert visitationHours to an object with start and end timestamps just like in scheduledCalls. The trade-off I made was to skip converting the visitationHours; instead I hard-corded it.
+If I had more time, I would convert the visitationHours accordingly.
