@@ -1,0 +1,1 @@
+I would store the results of the fetchContacts API in a cache such as redis and then run a procedure that updates it once a week.

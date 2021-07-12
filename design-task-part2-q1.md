@@ -25,4 +25,4 @@ Mail {
 
 }
 
-I would place the critical API calls in a Promise.all block
+I would place the critical API calls in a Promise.all block. I would also cache API results where user doesn't care much about updated data
