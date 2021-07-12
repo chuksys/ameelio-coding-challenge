@@ -8,22 +8,21 @@ User {
     mails: {}[]
 }
 
-Contacts {
+contacts {
     name: string,
     inmateId: number,
     created_by: number 
-}
+}[]
 
-Designs {
+designs {
     cost: {}[]
-}
+}[]
 
-Mail {
+mail {
     id: number,
     contactId: number,
     totalCost: number,
     content: {}
-
-}
+}[]
 
 I would place the critical API calls in a Promise.all block. I would also cache API results where user doesn't care much about updated data.

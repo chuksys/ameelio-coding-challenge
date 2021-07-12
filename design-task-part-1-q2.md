@@ -9,20 +9,20 @@ User {
     currentViewContactId: number
 }
 
-Contacts {
+contacts {
     name: string,
     inmateId: number,
     created_by: number,
     currentView: bool 
-}
+}[]
 
-Designs {
+designs {
     cost: {}[]
-}
+}[]
 
-Mail {
+mail {
     id: number,
     contactId: number,
     totalCost: number,
     content: {}
-}
+}[]

@@ -1,4 +1,4 @@
-User {
+user {
     id: number,
     name: string,
     wallets: {
@@ -7,19 +7,19 @@ User {
     }
 }
 
-Contacts {
+contacts {
     name: string,
     inmateId: number,
     created_by: number 
-}
+}[]
 
-Designs {
+designs {
     cost: {}[]
-}
+}[]
 
-Mail {
+mail {
     id: number,
     contactId: number,
     totalCost: number,
     content: {}
-}
+}[]
