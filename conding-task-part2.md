@@ -1,0 +1,2 @@
+1. My algorithm required that I convert availableTimeSlots to an object with start and timestamps just like to scheduledCalls items. The trade-off I made was to skip converting the availableTimeSlots; instead I hard-corded it.
+If I had more time, I would convert the availableTimeSlots accordingly.
