@@ -21,5 +21,6 @@ Mail {
     id: number,
     contactId: number,
     totalCost: number,
-    contactIds: number[],
+    content: {},
+    contactIds: number[]
 }

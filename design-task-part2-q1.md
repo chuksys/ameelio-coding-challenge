@@ -22,6 +22,7 @@ Mail {
     id: number,
     contactId: number,
     totalCost: number,
+    content: {}
 
 }
 

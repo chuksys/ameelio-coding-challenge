@@ -23,5 +23,6 @@ Designs {
 Mail {
     id: number,
     contactId: number,
-    totalCost: number
+    totalCost: number,
+    content: {}
 }
